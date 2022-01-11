@@ -1,0 +1,59 @@
+.plano-clube{
+    border: none;
+    cursor: pointer;
+    display: flex;
+    margin: 100px auto;
+}
+
+.plano-clube img{
+    width: 200px;
+    height: 200px;
+}
+
+.livros{
+    display: none;
+}
+
+.livros-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.livros-img{
+    margin: 100px 100px 0 130px;
+}
+
+.livros-img img{
+    width: 200px;
+    height: 300px;
+}
+
+ /* .livros-img p{
+    margin-left: 18px;
+    font-size: 18px ;
+    font-weight: bold;
+}  */
+
+.livro-autor1{
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.livro-autor-padrao1{
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.livro-autor3{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.livro-autor-padrao2{
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+.texto-resumo-livro{
+    width: 200px;
+}
