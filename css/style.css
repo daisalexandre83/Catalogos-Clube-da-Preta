@@ -12,6 +12,7 @@
 
 .livros{
     display: none;
+    width: 100vw;
 }
 
 .livros-container{
@@ -20,7 +21,9 @@
 }
 
 .livros-img{
-    margin: 100px 40px 0 70px;
+    /* margin: 100px 40px 0 70px; */
+    width: 33,33%;
+    margin: 80px 0 0 80px;
 }
 
 /* .livros-img img{
@@ -35,25 +38,41 @@
 }  */
 
 .livro-autor1{
-    margin-left: 50px;
+    margin-left: 105px;
     font-weight: bold;
 }
 
 .livro-autor-padrao1{
-    margin-left: 40px;
+    margin-left: 90px;
     font-weight: bold;
 }
 
 .livro-autor3{
-    margin-left: 20px;
+    margin-left: 80px;
     font-weight: bold;
 }
 
-.livro-autor-padrao2{
-    margin-left: 60px;
+.livro-autor-padrao5{
+    margin-left: 122px;
+    font-weight: bold;
+}
+
+.livro-autor-padrao6{
+    margin-left: 100px;
     font-weight: bold;
 }
 
 .texto-resumo-livro{
-    width: 200px;
+    width: 300px;
+    display: none;
+}
+
+.resumo-livro{
+    width: 300px;
+    margin-left: 15px;
+}
+
+.btn-escolher{
+    width: 150px;
+    margin: 25px  0 0 80px;
 }
