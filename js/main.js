@@ -8,6 +8,13 @@ function showProducts() {
     document.querySelector('.books').style.display = 'block';
 }
 
+function showResume() {
+    console.log('daiane');
+    document.querySelectorAll('.texto-resumo-livro').style.display = 'block';
+    document.querySelector('.btn-escolher').style.display = 'none';
+    document.querySelector('.btn-close').style.display = 'block';
+}
+
 /* showProducts();
 
 $(".resumo-livro").click(function () {
