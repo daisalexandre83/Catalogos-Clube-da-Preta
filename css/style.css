@@ -63,8 +63,15 @@
 }
 
 .texto-resumo-livro{
-    width: 300px;
+    width: 64%;
+}
+
+.book-informations{
     display: none;
+    /* position: absolute;
+    margin-left: 500px;
+    margin-top: -553px; */
+    margin: 81px 0 0 150px;
 }
 
 .resumo-livro{
@@ -72,11 +79,14 @@
     margin-left: 15px;
 }
 
-.btn-escolher{
+/* .btn-escolher{
     width: 150px;
-    margin: 25px  0 0 80px;
-}
+} */
 
 .btn-close{
     display: none;
+}
+
+.books-1{
+    display: flex;
 }
